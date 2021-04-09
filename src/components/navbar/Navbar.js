@@ -13,15 +13,15 @@ function Navbar() {
       };
     return (
         <>
-        <nav>
+        <nav className="">
             <div className="hamburger"  onClick={toggleClass}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
             </div>
-            <div className="flex-container">
-                <div className="logo">
-                    <img src="logo.png" alt="hotel canada inn logo" width="50%"/>
+            <div className="flex-nav-container">
+                <div className="logo d-block">
+                    <img src="logo.png" className="logo" alt="hotel canada inn logo" width="40%"/>
                 </div>
                 <ul  className={isActive ? 'nav-links open': 'nav-links'}  >
                     <li className={isActive ? 'fade': null} ><Link to='/' className="text-capitalize" onClick={toggleClass}>accueil</Link></li>

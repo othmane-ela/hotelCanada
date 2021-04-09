@@ -7,19 +7,44 @@
 }
 
 
-.title{
-    display: block;
-    text-align: center;
-    font-size: 80px;
-    color: #FFF;
+.slide-title{
+    padding-top: 80px;
+    margin: 0 auto;
+  
 }
 
-.slide-title{
-    padding-top: 20px;
+.slide-title h1{
     font-size: 5rem;
     color: #FFF;
+    text-align: left;
 }
 
 .slide-title span{
     color:#cd0000;
+}
+
+.slide-title p{
+    color: #FFF;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.next-slide{
+    position: relative;
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.13); 
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
+
+}
+
+.next-slide-icon{
+    color: rgba(255, 255, 255, 0.411);
+    position: absolute;
+    left: 26%;
+    top: 25%;
 }
