@@ -106,3 +106,9 @@ nav{
         opacity: 1 !important;
     }
 }
+
+
+.active{
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+}

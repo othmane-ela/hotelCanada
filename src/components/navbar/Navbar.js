@@ -1,13 +1,16 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
     const [isActive, setActive] = useState(false);
+   
     const toggleClass = () => {
+        
         if(window.innerWidth <= 768)
         {
             setActive(!isActive);
+
         }
       
       };
@@ -24,11 +27,11 @@ function Navbar() {
                     <img src="logo.png" className="logo" alt="hotel canada inn logo" width="40%"/>
                 </div>
                 <ul  className={isActive ? 'nav-links open': 'nav-links'}  >
-                    <li className={isActive ? 'fade': null} ><Link to='/' className="text-capitalize" onClick={toggleClass}>accueil</Link></li>
-                    <li className={isActive ? 'fade': null} ><Link to='/room' className="text-capitalize" onClick={toggleClass}>room</Link></li>
-                    <li className={isActive ? 'fade': null}> <Link to='/suite' className="text-capitalize" onClick={toggleClass}>suite</Link></li>
-                    <li className={isActive ? 'fade': null} ><Link to='/restaurant' className="text-capitalize" onClick={toggleClass}>restaurant</Link></li>
-                    <li className={isActive ? 'fade': null} ><Link to='/contact' className="text-capitalize" onClick={toggleClass}>contact</Link></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/" activeClassName="active" onClick={toggleClass}>Accueil</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/room" activeClassName="active" onClick={toggleClass}>Room</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/suite" activeClassName="active" onClick={toggleClass}>Suite</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/restaurant" activeClassName="active" onClick={toggleClass}>Restaurant</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/contact" activeClassName="active" onClick={toggleClass}>Contact</NavLink></li>
                 </ul>
              </div>
         </nav>
