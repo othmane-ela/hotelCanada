@@ -1,0 +1,31 @@
+
+.about{
+    padding: 50px 0;
+}
+
+.about h3 {
+    color: #fff;
+    text-align: center;
+    padding-bottom:20px;
+    font-size: 24px;
+}
+
+
+.about h2{
+    color: #fff;
+    text-align: center;
+    padding-top:20px;
+}
+
+.about h3 span {
+  color: rgb(248, 60, 60);
+  font-weight: bold;
+}
+
+
+.about p{
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}

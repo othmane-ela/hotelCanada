@@ -13,7 +13,7 @@ function Navbar() {
       };
     return (
         <>
-        <nav className="">
+        <nav>
             <div className="hamburger"  onClick={toggleClass}>
                 <div className="line"></div>
                 <div className="line"></div>
@@ -28,7 +28,7 @@ function Navbar() {
                     <li className={isActive ? 'fade': null} ><Link to='/room' className="text-capitalize" onClick={toggleClass}>room</Link></li>
                     <li className={isActive ? 'fade': null}> <Link to='/suite' className="text-capitalize" onClick={toggleClass}>suite</Link></li>
                     <li className={isActive ? 'fade': null} ><Link to='/restaurant' className="text-capitalize" onClick={toggleClass}>restaurant</Link></li>
-                    <li className={isActive ? 'fade': null} ><Link to='/' className="text-capitalize" onClick={toggleClass}>contact</Link></li>
+                    <li className={isActive ? 'fade': null} ><Link to='/contact' className="text-capitalize" onClick={toggleClass}>contact</Link></li>
                 </ul>
              </div>
         </nav>
