@@ -1,0 +1,25 @@
+.slide{
+    top: 0;
+    position: absolute;
+    padding-top: 10vh;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.title{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+}
+
+.slide-title{
+    padding-top: 20px;
+    font-size: 5rem;
+    color: #FFF;
+}
+
+.slide-title span{
+    color:#cd0000;
+}
