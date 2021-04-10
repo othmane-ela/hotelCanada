@@ -62,8 +62,8 @@ function HomeSlide() {
            
            
             <div className="container-fuild container-fix">
-              <div className="row adjust-bottom-slide">
-                  <div className="col-md-4 text-center pb-4 left-side-text d-none d-md-block">
+              <div className="row adjust-bottom-slide px-0 mx-0">
+                  <div className="col-md-4 text-center py-5 left-side-text d-none d-md-block">
 
 
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-house-door text-light m-2" viewBox="0 0 16 16">

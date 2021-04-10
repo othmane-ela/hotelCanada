@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import FadeIn from 'react-fade-in';
 import Carousel from "react-multi-carousel";
 
-import About from "../about/About"
-import All from "../all/All"
+import AboutRoom from "../about/AboutRoom"
+import RoomAll from "../all/RoomAll"
 import Contact from "../contact/Contact"
 
 function RoomSlide() {
@@ -60,7 +60,7 @@ function RoomSlide() {
                 </div>
            
             <div className="container-fuild container-fix">
-            <div className="row adjust-bottom-slide">
+            <div className="row adjust-bottom-slide px-0 mx-0">
               <div className="col-md-4 text-center pb-4 left-side-text d-none d-md-block ">
 
 
@@ -140,8 +140,8 @@ function RoomSlide() {
             </div>
 
             </FadeIn>
-            <About></About>
-            <All></All>
+            <AboutRoom></AboutRoom>
+            <RoomAll></RoomAll>
             <Contact></Contact>
 
             </div>

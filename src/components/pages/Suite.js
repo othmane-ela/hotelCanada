@@ -4,8 +4,8 @@ import FadeIn from 'react-fade-in';
 import Carousel from "react-multi-carousel";
 
 
-import About from "../about/About"
-import All from "../all/All"
+import AboutSuite from "../about/AboutSuite"
+import SuiteAll from "../all/SuiteAll"
 import Contact from "../contact/Contact"
 
 function SuiteSlide() {
@@ -66,7 +66,7 @@ function SuiteSlide() {
                
 
                 <div className="container-fuild container-fix">
-            <div className="row adjust-bottom-slide">
+            <div className="row adjust-bottom-slide px-0 mx-0">
               <div className="col-md-4 text-center pb-4 left-side-text d-none d-md-block">
 
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-house-door text-light m-2" viewBox="0 0 16 16">
@@ -145,8 +145,8 @@ function SuiteSlide() {
 
             </FadeIn> 
 
-            <About></About>
-            <All></All>
+            <AboutSuite></AboutSuite>
+            <SuiteAll></SuiteAll>
             <Contact></Contact>
 
 
