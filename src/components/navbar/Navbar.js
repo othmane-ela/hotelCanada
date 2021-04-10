@@ -1,9 +1,10 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
     const [isActive, setActive] = useState(false);
+    const [scroll, setScroll] = useState(false);
    
     const toggleClass = () => {
         
@@ -14,10 +15,18 @@ function Navbar() {
         }      
       };
 
+     
+      useEffect(() => {
+        window.addEventListener("scroll", () => {
+          setScroll(window.scrollY > 30);
+        });
+      }, []);
+      
     
     return (
+        
         <>
-        <nav className="fixed-top">
+        <nav className={scroll ? "fixed-top shadow-lg darkness-nav" : ""}>
             <div className="hamburger"  onClick={toggleClass}>
                 <div className="line"></div>
                 <div className="line"></div>
@@ -25,7 +34,7 @@ function Navbar() {
             </div>
             <div className="flex-nav-container">
                 <div className="logo d-block">
-                    <img src="logo.png" className="logo" alt="hotel canada inn logo" width="40%"/>
+                    <img src="logo.png" className="logo" alt="hotel canada inn logo" width="38%"/>
                 </div>
                 <ul  className={isActive ? 'nav-links open': 'nav-links'}  >
                     <li className={isActive ? 'fade ': null}><NavLink exact  to="/" activeClassName="active" onClick={toggleClass}>Accueil</NavLink></li>

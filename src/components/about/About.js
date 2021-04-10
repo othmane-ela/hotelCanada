@@ -9,7 +9,9 @@ function About() {
              <div className="container">
                 <div className="row">
                         <div className="col-md-12 mb-5">
+                            <div className="flag">
                             <img src="logo.png" className="d-block mx-auto" alt="hotel brand" width="10%"/>
+                            </div>
                             <h2>À propos de nous</h2>
                             <h3>Hotel <b>Canada</b> <span>inn</span></h3>
                             <p>
