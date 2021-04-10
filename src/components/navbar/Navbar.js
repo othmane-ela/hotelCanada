@@ -11,12 +11,13 @@ function Navbar() {
         {
             setActive(!isActive);
 
-        }
-      
+        }      
       };
+
+    
     return (
         <>
-        <nav>
+        <nav className="fixed-top">
             <div className="hamburger"  onClick={toggleClass}>
                 <div className="line"></div>
                 <div className="line"></div>

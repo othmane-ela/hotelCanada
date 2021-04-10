@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import './All.css'
 
 function RoomAll() {
@@ -9,7 +10,7 @@ function RoomAll() {
                 <div className="container">
                     <div className="row top">
                        <div className="col-md-4 mb-4">
-                            <Link to='/restaurant'>
+                            <Link to='/room'>
                             <div className="magic-card text-center">
                                         <img src="images/room/3K9C0081.jpg" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
@@ -31,7 +32,7 @@ function RoomAll() {
                             </Link>
                        </div>
                        <div className="col-md-4 mb-4">
-                            <Link to='/suite'>
+                            <Link to='/room'>
                             <div className="magic-card text-center">
                                         <img src="images/room/IMG_0276.jpg" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
