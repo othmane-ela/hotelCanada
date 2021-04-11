@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hotelcanadainn/static/css/main.decd62d1.chunk.css",
-    "main.js": "/hotelcanadainn/static/js/main.38a371b0.chunk.js",
-    "main.js.map": "/hotelcanadainn/static/js/main.38a371b0.chunk.js.map",
-    "runtime-main.js": "/hotelcanadainn/static/js/runtime-main.c861d5d5.js",
-    "runtime-main.js.map": "/hotelcanadainn/static/js/runtime-main.c861d5d5.js.map",
-    "static/css/2.048ac2aa.chunk.css": "/hotelcanadainn/static/css/2.048ac2aa.chunk.css",
-    "static/js/2.cd5c9ac5.chunk.js": "/hotelcanadainn/static/js/2.cd5c9ac5.chunk.js",
-    "static/js/2.cd5c9ac5.chunk.js.map": "/hotelcanadainn/static/js/2.cd5c9ac5.chunk.js.map",
-    "index.html": "/hotelcanadainn/index.html",
-    "static/css/2.048ac2aa.chunk.css.map": "/hotelcanadainn/static/css/2.048ac2aa.chunk.css.map",
-    "static/css/main.decd62d1.chunk.css.map": "/hotelcanadainn/static/css/main.decd62d1.chunk.css.map",
-    "static/js/2.cd5c9ac5.chunk.js.LICENSE.txt": "/hotelcanadainn/static/js/2.cd5c9ac5.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/hotelcanadainn/static/media/revicons.e8746a62.woff"
+    "main.css": "/hotelCanada/static/css/main.decd62d1.chunk.css",
+    "main.js": "/hotelCanada/static/js/main.38a371b0.chunk.js",
+    "main.js.map": "/hotelCanada/static/js/main.38a371b0.chunk.js.map",
+    "runtime-main.js": "/hotelCanada/static/js/runtime-main.8d92ab3b.js",
+    "runtime-main.js.map": "/hotelCanada/static/js/runtime-main.8d92ab3b.js.map",
+    "static/css/2.0fd57da1.chunk.css": "/hotelCanada/static/css/2.0fd57da1.chunk.css",
+    "static/js/2.cd5c9ac5.chunk.js": "/hotelCanada/static/js/2.cd5c9ac5.chunk.js",
+    "static/js/2.cd5c9ac5.chunk.js.map": "/hotelCanada/static/js/2.cd5c9ac5.chunk.js.map",
+    "index.html": "/hotelCanada/index.html",
+    "static/css/2.0fd57da1.chunk.css.map": "/hotelCanada/static/css/2.0fd57da1.chunk.css.map",
+    "static/css/main.decd62d1.chunk.css.map": "/hotelCanada/static/css/main.decd62d1.chunk.css.map",
+    "static/js/2.cd5c9ac5.chunk.js.LICENSE.txt": "/hotelCanada/static/js/2.cd5c9ac5.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/hotelCanada/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c861d5d5.js",
-    "static/css/2.048ac2aa.chunk.css",
+    "static/js/runtime-main.8d92ab3b.js",
+    "static/css/2.0fd57da1.chunk.css",
     "static/js/2.cd5c9ac5.chunk.js",
     "static/css/main.decd62d1.chunk.css",
     "static/js/main.38a371b0.chunk.js"
