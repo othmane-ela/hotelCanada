@@ -18,12 +18,12 @@ function App(props) {
         <Router>
              <Navbar/>
              <Switch>
-                 <Route path="/" exact component={HomeSlide} />
-                 <Route path="/room" exact component={RoomSlide} />
-                 <Route path="/suite" exact component={SuiteSlide} />
-                 <Route path="/restaurant" exact component={RestaurantSlide} />
-                 <Route path="/contact" exact component={Contact} />
-                 <Route path="*">
+                 <Route path={process.env.PUBLIC_URL + "/"} exact component={HomeSlide}/>     
+                 <Route path={process.env.PUBLIC_URL +"/room"} exact component={RoomSlide} />
+                 <Route path={process.env.PUBLIC_URL +"/suite"} exact component={SuiteSlide} />
+                 <Route path={process.env.PUBLIC_URL +"/restaurant"} exact component={RestaurantSlide} />
+                 <Route path={process.env.PUBLIC_URL +"/contact"} exact component={Contact} />
+                 <Route path={process.env.PUBLIC_URL +"*"}>
                     <NoMatch />
                 </Route>
              </Switch>
