@@ -5,11 +5,7 @@ import './Contact.css'
 function Contact() {
     return (
         <>
-            <div className="contact" style={{ backgroundImage: "url()" ,
-            backgroundRepeat: 'no-repeat', 
-            backgroundSize: 'cover'
-            
-            }}>
+            <div className="contact">
                 <div className="container">
                 <div className="row text-light">
                     <div className="col-md-12 text-center text-light title">

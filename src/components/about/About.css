@@ -1,4 +1,8 @@
 
+.about-bg{
+    background-color: rgb(24 24 24) !important;
+    padding-bottom: 30px;
+}
 .about h3 {
     color: #fff;
     text-align: center;

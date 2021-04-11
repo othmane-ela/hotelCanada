@@ -8,7 +8,7 @@ function About() {
             <div className="about">
              <div className="container">
                 <div className="row">
-                        <div className="col-md-12 mb-5">
+                        <div className="col-md-12 mb-5 about-bg">
                             <img src="logo.png" className="d-block mx-auto" alt="hotel brand" width="10%"/>
                             <h2>Suite</h2>
                             <h3>Hotel <b>Canada</b> <span>inn</span></h3>

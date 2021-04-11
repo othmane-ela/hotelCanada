@@ -1,5 +1,4 @@
 nav{
-    height: 10vh;
     background: transparent;
    
 }
@@ -28,6 +27,7 @@ nav{
     color: #FFF;
     text-decoration: none;
     font-size: 16px;
+    padding: 5px;
     
 }
 
@@ -81,6 +81,7 @@ nav{
 
     .nav-links li a{
        font-size: 25px;
+   
     }
 
     .nav-links li:nth-child(1){
@@ -109,11 +110,11 @@ nav{
 
 
 .active{
-    border-bottom: 2px solid #FFF;
-    padding: 10px;
+    border-bottom: 4px solid #db0d0d;
+    padding-bottom: 20px;
 }
 
 .darkness-nav{
-    background-color: #0f0f0f;
-    transition: 0.5s ease-in;
+    background-color: #181818;
+    transition: 0.4s ease-in;
 }

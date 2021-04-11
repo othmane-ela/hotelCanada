@@ -6,7 +6,7 @@ import './All.css'
 function RoomAll() {
     return (
         <>
-            <div className="all">
+            <div className="all  mb-4">
                 <div className="container">
                     <div className="row top">
                        <div className="col-md-4 mb-4">

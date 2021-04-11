@@ -1,14 +1,13 @@
 import React from 'react'
 import './About.css'
 
-
 function About() {
     return (
         <>
             <div className="about">
              <div className="container">
-                <div className="row">
-                        <div className="col-md-12 mb-5">
+                <div className="row ">
+                        <div className="col-md-12 mb-5 about-bg">
                             <div className="flag">
                             <img src="logo.png" className="d-block mx-auto" alt="hotel brand" width="10%"/>
                             </div>
