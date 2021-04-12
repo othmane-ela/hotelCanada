@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hotelCanada/static/css/main.decd62d1.chunk.css",
-    "main.js": "/hotelCanada/static/js/main.45039b18.chunk.js",
-    "main.js.map": "/hotelCanada/static/js/main.45039b18.chunk.js.map",
+    "main.js": "/hotelCanada/static/js/main.2d0e254e.chunk.js",
+    "main.js.map": "/hotelCanada/static/js/main.2d0e254e.chunk.js.map",
     "runtime-main.js": "/hotelCanada/static/js/runtime-main.8d92ab3b.js",
     "runtime-main.js.map": "/hotelCanada/static/js/runtime-main.8d92ab3b.js.map",
     "static/css/2.0fd57da1.chunk.css": "/hotelCanada/static/css/2.0fd57da1.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.0fd57da1.chunk.css",
     "static/js/2.cd5c9ac5.chunk.js",
     "static/css/main.decd62d1.chunk.css",
-    "static/js/main.45039b18.chunk.js"
+    "static/js/main.2d0e254e.chunk.js"
   ]
 }
