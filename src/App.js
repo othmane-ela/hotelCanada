@@ -18,11 +18,11 @@ function App(props) {
         <Router>
              <Navbar/>
              <Switch>
-                 <Route path="/hotelCanada" exact component={HomeSlide}/>     
-                 <Route path="/hotelCanada/room" exact component={RoomSlide} />
-                 <Route path="/hotelCanada/suite" exact component={SuiteSlide} />
-                 <Route path="/hotelCanada/restaurant" exact component={RestaurantSlide} />
-                 <Route path="/hotelCanada/contact" exact component={Contact} />
+                 <Route path="/" exact component={HomeSlide}/>     
+                 <Route path="/room" exact component={RoomSlide} />
+                 <Route path="/suite" exact component={SuiteSlide} />
+                 <Route path="/restaurant" exact component={RestaurantSlide} />
+                 <Route path="/contact" exact component={Contact} />
                  <Route path="*">
                     <NoMatch />
                 </Route>

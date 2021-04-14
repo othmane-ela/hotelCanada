@@ -1,6 +1,5 @@
 {
-  "homepage": "https://othmane-ela.github.io/hotelCanada",
-  "name": "hotel_canada",
+  "name": "hotel_canada_inn",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

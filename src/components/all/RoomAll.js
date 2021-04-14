@@ -12,7 +12,7 @@ function RoomAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/room'>
                             <div className="magic-card text-center">
-                                        <img src="images/room/3K9C0081.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/room/3K9C0081.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Room</h4>
@@ -23,7 +23,7 @@ function RoomAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/room'>
                             <div className="magic-card text-center">
-                                        <img src="images/room/3K9C0098.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/room/3K9C0098.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Room</h4>
@@ -34,7 +34,7 @@ function RoomAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/room'>
                             <div className="magic-card text-center">
-                                        <img src="images/room/IMG_0276.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/room/IMG_0276.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Room</h4>

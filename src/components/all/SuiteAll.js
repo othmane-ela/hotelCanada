@@ -13,7 +13,7 @@ function SuiteAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/suite'>
                             <div className="magic-card text-center">
-                                        <img src="images/suite/IMG_0455.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/suite/IMG_0455.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Suite</h4>
@@ -24,7 +24,7 @@ function SuiteAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/suite'>
                             <div className="magic-card text-center">
-                                        <img src="images/suite/IMG_0486.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/suite/IMG_0486.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Suite Royal</h4>
@@ -35,7 +35,7 @@ function SuiteAll() {
                        <div className="col-md-4 mb-4">
                             <Link to='/suite'>
                             <div className="magic-card text-center">
-                                        <img src="images/suite/IMG_0344.jpg" alt="room" className="magic-card__image"/>
+                                        <img src="images/suite/IMG_0344.JPG" alt="room" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                             <div className="magic-card__text-no-wrapper">
                                                 <h4 className="magic-card__title">Suite</h4>
