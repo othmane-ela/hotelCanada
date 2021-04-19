@@ -109,7 +109,7 @@ nav{
 }
 
 
-.active{
+.activeLink{
     border-bottom: 4px solid #db0d0d;
     padding-bottom: 20px;
 }

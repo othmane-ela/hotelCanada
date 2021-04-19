@@ -33,7 +33,7 @@ function RestaurantSlide(props) {
 
     return (
         <>
-            <div className="slide" style={{ background: "linear-gradient( rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/restau-bg.jpg)" ,
+            <div className="slide" style={{ background: "linear-gradient( rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/entrance_et_restaurant/15.jpg)" ,
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'bottom',
             backgroundSize: 'cover'
@@ -89,53 +89,30 @@ function RestaurantSlide(props) {
                <div className="col-md-8 bottom-slide py-4">
                 <Carousel responsive={responsive}>
                 <div>
-                <Link to='/restaurant'>
-                    <div className="magic-card text-center">
-                                <img src="images/restau/130978218_2902789096622540_4395664072423925143_n.jpg" alt="room" className="magic-card__image"/>
-                                <div className="black-overlay"></div>
-                                    <div className="magic-card__text-no-wrapper">
-                                        <h4 className="magic-card__title">Restaurant</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                                </div>
-                    </div>
-                </Link>
+                    <Link to='/restaurantGallery'>
+                        <div className="magic-card text-center">
+                                    <img src="images/entrance_et_restaurant/13.jpg" alt="room" className="magic-card__image"/>
+                                    <div className="black-overlay"></div>
+                        </div>
+                    </Link>
                 </div>
                 <div>
-                <Link to='/restaurant'>
-                    <div className="magic-card text-center">
-                                <img src="images/restau/168516784_2982151755352940_7008292584395548666_n.jpg" alt="room" className="magic-card__image"/>
-                                <div className="black-overlay"></div>
-                                    <div className="magic-card__text-no-wrapper">
-                                        <h4 className="magic-card__title">Restaurant</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                                </div>
-                    </div>
-                </Link>
+                    <Link to='/restaurantGallery'>
+                        <div className="magic-card text-center">
+                                    <img src="images/entrance_et_restaurant/9.jpg" alt="room" className="magic-card__image"/>
+                                    <div className="black-overlay"></div>
+                        </div>
+                    </Link>
                 </div>
                 <div>
-                <Link to='/restaurant'>
-                    <div className="magic-card text-center">
-                                <img src="images/restau/145843652_2940831256151657_2997176019783491108_n.jpg" alt="room" className="magic-card__image"/>
-                                <div className="black-overlay"></div>
-                                    <div className="magic-card__text-no-wrapper">
-                                        <h4 className="magic-card__title">Restaurant</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                                </div>
-                    </div>
-                </Link>
+                    <Link to='/restaurantGallery'>
+                        <div className="magic-card text-center">
+                                    <img src="images/entrance_et_restaurant/20.jpg" alt="room" className="magic-card__image"/>
+                                    <div className="black-overlay"></div>
+                        </div>
+                    </Link>
                 </div>
-                <div>
-                <Link to='/restaurant'>
-                    <div className="magic-card text-center">
-                                <img src="images/restau/121810593_2849167431984707_1865371083927997772_n.jpg" alt="room" className="magic-card__image"/>
-                                <div className="black-overlay"></div>
-                                    <div className="magic-card__text-no-wrapper">
-                                        <h4 className="magic-card__title">Restaurant</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                                </div>
-                    </div>
-                </Link>
-                </div>
+         
                 </Carousel>
             </div>
             </div>

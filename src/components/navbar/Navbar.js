@@ -37,11 +37,12 @@ function Navbar() {
                     <img src="logo.png" className="logo" alt="hotel canada inn logo" width="38%"/>
                 </div>
                 <ul  className={isActive ? 'nav-links open': 'nav-links'}  >
-                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/" activeClassName="active" onClick={toggleClass}>Accueil</NavLink></li>
-                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/room" activeClassName="active" onClick={toggleClass}>Room</NavLink></li>
-                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/suite" activeClassName="active" onClick={toggleClass}>Suite</NavLink></li>
-                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/restaurant" activeClassName="active" onClick={toggleClass}>Restaurant</NavLink></li>
-                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/contact" activeClassName="active" onClick={toggleClass}>Contact</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/" activeClassName="activeLink" onClick={toggleClass}>Accueil</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/single" activeClassName="activeLink" onClick={toggleClass}>Single</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/double" activeClassName="activeLink" onClick={toggleClass}>Double</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/suite" activeClassName="activeLink" onClick={toggleClass}>Suite</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/restaurant" activeClassName="activeLink" onClick={toggleClass}>Restaurant</NavLink></li>
+                    <li className={isActive ? 'fade ': null}><NavLink exact  to="/contact" activeClassName="activeLink" onClick={toggleClass}>Contact</NavLink></li>
                 </ul>
              </div>
         </nav>
