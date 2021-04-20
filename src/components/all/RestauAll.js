@@ -10,7 +10,7 @@ function RestauAll() {
                 <div className="container">
                     <div className="row top">
                        <div className="col-md-4 mb-4">
-                            <Link to='/restaurantGallery'>
+                            <Link to='/restaurant/gallery'>
                             <div className="magic-card text-center">
                                         <img src="images/entrance_et_restaurant/15.jpg" alt="Restaurant" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
@@ -18,7 +18,7 @@ function RestauAll() {
                             </Link>
                        </div>
                        <div className="col-md-4 mb-4">
-                            <Link to='/restaurantGallery'>
+                            <Link to='/restaurant/gallery'>
                             <div className="magic-card text-center">
                                         <img src="images/entrance_et_restaurant/11.jpg" alt="Restaurant" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
@@ -26,7 +26,7 @@ function RestauAll() {
                             </Link>
                        </div>
                        <div className="col-md-4 mb-4">
-                            <Link to='/restaurantGallery'>
+                            <Link to='/restaurant/gallery'>
                             <div className="magic-card text-center">
                                         <img src="images/entrance_et_restaurant/14.jpg" alt="Restaurant" className="magic-card__image"/>
                                         <div className="black-overlay"></div>

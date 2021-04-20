@@ -29,8 +29,6 @@ function RestaurantSlide(props) {
         }
       };
 
-
-
     return (
         <>
             <div className="slide" style={{ background: "linear-gradient( rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/entrance_et_restaurant/15.jpg)" ,
@@ -89,25 +87,25 @@ function RestaurantSlide(props) {
                <div className="col-md-8 bottom-slide py-4">
                 <Carousel responsive={responsive}>
                 <div>
-                    <Link to='/restaurantGallery'>
+                    <Link to='/restaurant/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/entrance_et_restaurant/13.jpg" alt="room" className="magic-card__image"/>
+                                    <img src="/images/entrance_et_restaurant/13.jpg" alt="room" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                         </div>
                     </Link>
                 </div>
                 <div>
-                    <Link to='/restaurantGallery'>
+                    <Link to='/restaurant/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/entrance_et_restaurant/9.jpg" alt="room" className="magic-card__image"/>
+                                    <img src="/images/entrance_et_restaurant/9.jpg" alt="room" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                         </div>
                     </Link>
                 </div>
                 <div>
-                    <Link to='/restaurantGallery'>
+                    <Link to='/restaurant/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/entrance_et_restaurant/20.jpg" alt="room" className="magic-card__image"/>
+                                    <img src="/images/entrance_et_restaurant/20.jpg" alt="room" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                         </div>
                     </Link>

@@ -4,21 +4,21 @@ import FadeIn from 'react-fade-in';
 import Carousel from "react-multi-carousel";
 
 
-import AboutSuite from "../about/AboutSuite"
-import SuiteAll from "../all/SuiteAll"
+import AboutChambre from "../about/AboutChambre"
+import ChambreAll from "../all/ChambreAll"
 import Contact from "../contact/Contact"
 
-function SuiteSlide() {
+function ChambreSlide() {
 
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
-          items: 2
+          items: 5
         },
         desktop: {
           breakpoint: { max: 3000, min: 1395 },
-          items: 2
+          items: 3
         },
         tablet: {
           breakpoint: { max: 1395, min: 900 },
@@ -29,6 +29,8 @@ function SuiteSlide() {
           items: 1
         }
       };
+
+
 
     return (
         <>
@@ -43,14 +45,13 @@ function SuiteSlide() {
                     <div className="row">
                         <div className="col-md-10">
                             <div  className="slide-title">
-
-                                <h2>Suite</h2>
+                                <h2>Chambre</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s .</p>
                             </div>
                         </div>
                         <div className="col-md-2 ">
                             
-                              <Link to='/restaurant'>
+                              <Link to='/suite'>
                                 <div className="next-slide">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-chevron-right next-slide-icon" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -61,8 +62,9 @@ function SuiteSlide() {
                         </div>
                     </div>
                 </div>
-            
-            <div className="">
+               
+
+                <div className="container-fuild container-fix">
             <div className="row adjust-bottom-slide px-0 mx-0">
               <div className="col-md-4 text-center pb-4 left-side-text d-none d-md-block">
 
@@ -88,23 +90,34 @@ function SuiteSlide() {
                <div className="col-md-8 bottom-slide py-4">
                 <Carousel responsive={responsive}>
                 <div>
-                    <Link to='/suite/junior/gallery'>
+                    <Link to='chambre/single/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0480.jpg" alt="Suite junior" className="magic-card__image"/>
+                                    <img src="images/suite/IMG_0480.jpg" alt="Single" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
-                                            <h4 className="magic-card__title">Suite Junior</h4>
+                                            <h4 className="magic-card__title">Chambre Single</h4>
                                     </div>
                         </div>
                     </Link>
                 </div>
                 <div>
-                    <Link to='/suite/royal/gallery'>
-                        <div className="magic-card text-center w-95">
-                                    <img src="images/suite/IMG_0486.jpg" alt="Suite royal" className="magic-card__image"/>
+                    <Link to='chambre/double/gallery'>
+                        <div className="magic-card text-center">
+                                    <img src="images/suite/IMG_0486.jpg" alt="Double" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
-                                            <h4 className="magic-card__title">Suite Royal</h4>
+                                            <h4 className="magic-card__title">Chambre Double</h4>
+                                    </div>
+                        </div>
+                    </Link>
+                </div>
+                <div>
+                    <Link to='chambre/triple/gallery'>
+                        <div className="magic-card text-center">
+                                    <img src="images/suite/IMG_0490.jpg" alt="triple" className="magic-card__image"/>
+                                    <div className="black-overlay"></div>
+                                    <div className="magic-card__text-no-wrapper">
+                                            <h4 className="magic-card__title">Chambre Triple</h4>
                                     </div>
                         </div>
                     </Link>
@@ -116,8 +129,8 @@ function SuiteSlide() {
 
             </FadeIn> 
 
-            <AboutSuite></AboutSuite>
-            <SuiteAll></SuiteAll>
+            <AboutChambre></AboutChambre>
+            <ChambreAll></ChambreAll>
             <Contact></Contact>
 
 
@@ -127,4 +140,4 @@ function SuiteSlide() {
     )
 }
 
-export default SuiteSlide
+export default ChambreSlide

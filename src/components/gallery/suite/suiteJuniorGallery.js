@@ -1,8 +1,8 @@
 import React from 'react'
-import './Gallery.css'
+import '../Gallery.css'
 import Carousel from "react-multi-carousel";
 
-function Contact() {
+function SuiteJunior() {
 
     const responsive = {
         superLargeDesktop: {
@@ -31,43 +31,45 @@ function Contact() {
                 <div className="container">
                 <div className="row text-light">
                     <div className="col-md-12 text-center text-light title">
-                             <img src="logo.png" className="d-block mx-auto my-3" alt="hotel brand" width="10%"/>
-                            <h2 >Chambre Double Gallery</h2>
+                             <img src="/logo.png" className="d-block mx-auto my-3" alt="hotel brand" width="10%"/>
+                            <h2 >Suite Junior Gallery</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="col-md-12 mt-5">
                     <Carousel responsive={responsive}>
                         <div>
-                          <img src="images/chambre_double/3K9C0081.jpg" alt="Chambre double" className="magic-card__image rounded"/>
+                          <img src="/images/suite/IMG_0344.jpg" alt="suite junior" className="magic-card__image rounded"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/3K9C0083.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0350.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/3K9C0084.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0371.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/IMG_0066.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0453.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/IMG_0069.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0455.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/IMG_0078.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0469.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/chambre_double/IMG_0279.jpg" alt="Chambre double" className="magic-card__image"/>
-                        </div>
-
-                        <div>
-                          <img src="images/chambre_double/IMG_0288.jpg" alt="Chambre double" className="magic-card__image"/>
-                        </div>
-                        <div>
-                          <img src="images/chambre_double/IMG_0326.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0481.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
 
                         <div>
-                          <img src="images/chambre_double/IMG_0293.jpg" alt="Chambre double" className="magic-card__image"/>
+                          <img src="/images/suite/IMG_0483.jpg" alt="suite junior" className="magic-card__image"/>
+                        </div>
+                        <div>
+                          <img src="/images/suite/IMG_0484.jpg" alt="suite junior" className="magic-card__image"/>
+                        </div>
+                        <div>
+                          <img src="/images/suite/IMG_0489.jpg" alt="suite junior" className="magic-card__image"/>
+                        </div>
+                        <div>
+                          <img src="/images/suite/IMG_0501.jpg" alt="suite junior" className="magic-card__image"/>
                         </div>
                     </Carousel>
                     </div>
@@ -79,4 +81,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default SuiteJunior

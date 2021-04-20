@@ -1,8 +1,8 @@
 import React from 'react'
-import './Gallery.css'
+import '../Gallery.css'
 import Carousel from "react-multi-carousel";
 
-function Contact() {
+function restaurantGallery() {
 
     const responsive = {
         superLargeDesktop: {
@@ -31,45 +31,45 @@ function Contact() {
                 <div className="container">
                 <div className="row text-light">
                     <div className="col-md-12 text-center text-light title">
-                             <img src="logo.png" className="d-block mx-auto my-3" alt="hotel brand" width="10%"/>
-                            <h2 >restaurant Gallery</h2>
+                             <img src="/logo.png" className="d-block mx-auto my-3" alt="hotel brand" width="10%"/>
+                            <h2 >Restaurant Gallery</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="col-md-12 mt-5">
                     <Carousel responsive={responsive}>
                         <div>
-                          <img src="images/entrance_et_restaurant/17.jpg" alt="restaurant" className="magic-card__image rounded"/>
+                          <img src="/images/entrance_et_restaurant/17.jpg" alt="restaurant" className="magic-card__image rounded"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/9.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/9.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/10.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/10.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/11.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/11.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/12.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/12.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/13.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/13.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/14.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/14.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
 
                         <div>
-                          <img src="images/entrance_et_restaurant/15.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/15.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/18.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/18.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/19.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/19.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                         <div>
-                          <img src="images/entrance_et_restaurant/20.jpg" alt="restaurant" className="magic-card__image"/>
+                          <img src="/images/entrance_et_restaurant/20.jpg" alt="restaurant" className="magic-card__image"/>
                         </div>
                     </Carousel>
                     </div>
@@ -81,4 +81,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default restaurantGallery

@@ -49,7 +49,7 @@ function HomeSlide() {
                             </div>
                         </div>
                         <div className="col-md-2 ">
-                              <Link to='/single'>
+                              <Link to='/chambre'>
                                 <div className="next-slide">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-chevron-right next-slide-icon" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -89,12 +89,12 @@ function HomeSlide() {
                    <div className="col-md-8 bottom-slide py-4">
                     <Carousel responsive={responsive}>
                     <div>
-                    <Link to='/single'>
+                    <Link to='/chambre'>
                         <div className="magic-card text-center">
-                                    <img src="images/chambre_single/IMG_0338.jpg" alt="Chambre single" className="magic-card__image"/>
+                                    <img src="images/chambre_single/IMG_0338.jpg" alt="Chambre" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
-                                            <h4 className="magic-card__title">Chambre Single</h4>
+                                            <h4 className="magic-card__title">Chambre</h4>
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                                     </div>
                         </div>
@@ -102,22 +102,9 @@ function HomeSlide() {
                     </div>
 
                     <div>
-                    <Link to='/double'>
-                        <div className="magic-card text-center">
-                                    <img src="images/chambre_double/IMG_0062.jpg" alt="Chambre double" className="magic-card__image"/>
-                                    <div className="black-overlay"></div>
-                                        <div className="magic-card__text-no-wrapper">
-                                            <h4 className="magic-card__title">Chambre Double</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                                    </div>
-                        </div>
-                    </Link>
-                    </div>
-                  
-                    <div>
                     <Link to='/suite'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0344.jpg" alt="Suite" className="magic-card__image"/>
+                                    <img src="images/chambre_double/IMG_0062.jpg" alt="Suite" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite</h4>
@@ -126,10 +113,11 @@ function HomeSlide() {
                         </div>
                     </Link>
                     </div>
+                  
                     <div>
                     <Link to='/restaurant'>
                         <div className="magic-card text-center">
-                                    <img src="images/entrance_et_restaurant/11.jpg" alt="Restaurant" className="magic-card__image"/>
+                                    <img src="images/suite/IMG_0344.jpg" alt="restaurant" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Restaurant</h4>

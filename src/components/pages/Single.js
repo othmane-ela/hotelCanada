@@ -87,7 +87,7 @@ function RoomSlide() {
                <div className="col-md-8 bottom-slide py-4">
                 <Carousel responsive={responsive}>
                 <div>
-                  <Link to='/singleGallery'>
+                  <Link to='/single/gallery'>
                       <div className="magic-card text-center">
                                   <img src="images//chambre_single/IMG_0339.jpg" alt="Single image_01" className="magic-card__image"/>
                                   <div className="black-overlay"></div>
@@ -95,7 +95,7 @@ function RoomSlide() {
                   </Link>
                 </div>
                 <div>
-                  <Link to='/singleGallery'>
+                  <Link to='/single/gallery'>
                       <div className="magic-card text-center">
                                   <img src="images//chambre_single/IMG_0276.jpg" alt="Single image_02" className="magic-card__image"/>
                                   <div className="black-overlay"></div>
@@ -103,7 +103,7 @@ function RoomSlide() {
                   </Link>
                 </div>
                 <div>
-                  <Link to='/singleGallery'>
+                  <Link to='/single/gallery'>
                       <div className="magic-card text-center">
                                   <img src="images//chambre_single/IMG_0287.jpg" alt="Single image_03" className="magic-card__image"/>
                                   <div className="black-overlay"></div>
