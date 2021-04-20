@@ -32,7 +32,7 @@ function SuiteSlide() {
 
     return (
         <>
-            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/suite/IMG_0344.jpg)" ,
+            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(/images/suite/IMG_0344.jpg)" ,
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'bottom',
             backgroundSize: 'cover'
@@ -89,8 +89,8 @@ function SuiteSlide() {
                 <Carousel responsive={responsive}>
                 <div>
                     <Link to='/suite/junior/gallery'>
-                        <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0480.jpg" alt="Suite junior" className="magic-card__image"/>
+                        <div className="magic-card w-95 text-center">
+                                    <img src="/images/suite/IMG_0486.jpg" alt="Suite Junior" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite Junior</h4>
@@ -101,7 +101,7 @@ function SuiteSlide() {
                 <div>
                     <Link to='/suite/royal/gallery'>
                         <div className="magic-card text-center w-95">
-                                    <img src="images/suite/IMG_0486.jpg" alt="Suite royal" className="magic-card__image"/>
+                                    <img src="/images/suite/IMG_0480.jpg" alt="Suite Royal" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite Royal</h4>

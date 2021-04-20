@@ -34,7 +34,7 @@ function ChambreSlide() {
 
     return (
         <>
-            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/suite/IMG_0344.jpg)" ,
+            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(/images/chambre_double/3K9C0085.jpg)" ,
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'bottom',
             backgroundSize: 'cover'
@@ -92,7 +92,7 @@ function ChambreSlide() {
                 <div>
                     <Link to='chambre/single/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0480.jpg" alt="Single" className="magic-card__image"/>
+                                    <img src="/images/chambre_double/3K9C0091.jpg" alt="Single" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Chambre Single</h4>
@@ -103,7 +103,7 @@ function ChambreSlide() {
                 <div>
                     <Link to='chambre/double/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0486.jpg" alt="Double" className="magic-card__image"/>
+                                    <img src="/images/chambre_double/3K9C0098.jpg" alt="Double" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Chambre Double</h4>
@@ -114,7 +114,7 @@ function ChambreSlide() {
                 <div>
                     <Link to='chambre/triple/gallery'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0490.jpg" alt="triple" className="magic-card__image"/>
+                                    <img src="/images/chambre_double/IMG_0059.jpg" alt="triple" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                     <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Chambre Triple</h4>

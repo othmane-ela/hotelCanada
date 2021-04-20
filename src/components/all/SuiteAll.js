@@ -13,7 +13,7 @@ function SuiteAll() {
                        <div className="col-md-6 mb-4">
                             <Link to='/suite/junior/gallery'>
                             <div className="magic-card text-center">
-                                        <img src="images/suite/IMG_0501.jpg" alt="Suite" className="magic-card__image"/>
+                                        <img src="images/suite/IMG_0484.jpg" alt="Suite" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite Junior</h4>
@@ -24,7 +24,7 @@ function SuiteAll() {
                        <div className="col-md-6 mb-4">
                             <Link to='/suite/royal/gallery'>
                             <div className="magic-card text-center">
-                                        <img src="images/suite/IMG_0455.jpg" alt="Suite" className="magic-card__image"/>
+                                        <img src="images/suite/IMG_0480.jpg" alt="Suite" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite Royal</h4>

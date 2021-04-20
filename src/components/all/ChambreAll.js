@@ -33,8 +33,8 @@ function ChambreAll() {
                        </div>
                        <div className="col-md-4 mb-4">
                             <Link to='/chambre/triple/gallery'>
-                            <div className="/magic-card text-center">
-                                        <img src="images/chambre_double/IMG_0278.jpg" alt="Chambre Triple" className="magic-card__image"/>
+                            <div className="magic-card text-center">
+                                        <img src="/images/chambre_double/IMG_0064.jpg" alt="Chambre Triple" className="magic-card__image"/>
                                         <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Chambre Triple</h4>

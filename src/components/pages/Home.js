@@ -33,7 +33,7 @@ function HomeSlide() {
       };
     return (
         <>
-            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(images/entrance_et_restaurant/3.jpg)" ,
+            <div className="slide" style={{ background: "linear-gradient(rgb(15, 15, 15), rgb(0 0 0 / 48%)), url(/images/home.jpg)" ,
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'bottom',
             backgroundSize: 'cover'
@@ -91,7 +91,7 @@ function HomeSlide() {
                     <div>
                     <Link to='/chambre'>
                         <div className="magic-card text-center">
-                                    <img src="images/chambre_single/IMG_0338.jpg" alt="Chambre" className="magic-card__image"/>
+                                    <img src="/images/chambre_single/IMG_0338.jpg" alt="Chambre" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Chambre</h4>
@@ -104,7 +104,7 @@ function HomeSlide() {
                     <div>
                     <Link to='/suite'>
                         <div className="magic-card text-center">
-                                    <img src="images/chambre_double/IMG_0062.jpg" alt="Suite" className="magic-card__image"/>
+                                    <img src="/images/suite/IMG_0344.jpg" alt="Suite" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Suite</h4>
@@ -117,7 +117,7 @@ function HomeSlide() {
                     <div>
                     <Link to='/restaurant'>
                         <div className="magic-card text-center">
-                                    <img src="images/suite/IMG_0344.jpg" alt="restaurant" className="magic-card__image"/>
+                                    <img src="/images/entrance_et_restaurant/10.jpg" alt="restaurant" className="magic-card__image"/>
                                     <div className="black-overlay"></div>
                                         <div className="magic-card__text-no-wrapper">
                                             <h4 className="magic-card__title">Restaurant</h4>
